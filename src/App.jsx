@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import FeatureCard from "./components/FeatureCard"
+import Motivation from "./components/Motivation"
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           description="Always yes"
         />
       </div>
+
+      <Motivation />
+      
     </div>
   )
 }
