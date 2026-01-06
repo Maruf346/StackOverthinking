@@ -6,14 +6,14 @@ function Header() {
   const [activeFeature, setActiveFeature] = useState('home');
   
   const features = [
-    { id: 'home', name: '🏠 Home', emoji: '🏠' },
-    { id: 'motivation', name: '😂 Anti-Motivation', emoji: '😂' },
-    { id: 'excuses', name: '🤓 Dev Excuses', emoji: '🤓' },
-    { id: 'late', name: '⏰ Am I Late?', emoji: '⏰' },
-    { id: 'productivity', name: '📊 Fake Productivity', emoji: '📊' },
-    { id: 'decisions', name: '🎯 Life Decisions', emoji: '🎯' },
-    { id: 'exam', name: '📚 Exam Simulator', emoji: '📚' },
-    { id: 'sleep', name: '😴 Sleep vs Study', emoji: '😴' }
+    { id: 'home', name: 'Home', emoji: '🏠' },
+    { id: 'motivation', name: 'Anti-Motivation', emoji: '😂' },
+    { id: 'excuses', name: 'Dev Excuses', emoji: '🤓' },
+    { id: 'late', name: 'Am I Late?', emoji: '⏰' },
+    { id: 'productivity', name: 'Fake Productivity', emoji: '📊' },
+    { id: 'decisions', name: 'Life Decisions', emoji: '🎯' },
+    { id: 'exam', name: 'Exam Simulator', emoji: '📚' },
+    { id: 'sleep', name: 'Sleep vs Study', emoji: '😴' }
   ];
 
   const handleFeatureClick = (featureId) => {
@@ -32,7 +32,6 @@ function Header() {
           <div className="logo-emoji">🤯</div>
           <div className="logo-text">
             <h1 className="logo-title">StackOverThinking</h1>
-            <p className="logo-subtitle">Your daily dose of useless productivity</p>
           </div>
           <div className="logo-emoji">💭</div>
         </div>
