@@ -29,7 +29,7 @@ function Home() {
       description: "Spoiler: It's always yes, but with creative reasons",
       emoji: "⏰",
       color: "#FFF3CD",
-      status: "Coming Soon",
+      status: "Live",
       path: "/late"
     },
     {
