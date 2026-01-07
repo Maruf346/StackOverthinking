@@ -47,7 +47,7 @@ function Home() {
       description: "Get terrible advice for your life's biggest dilemmas",
       emoji: "🎯",
       color: "#E6D4FF",
-      status: "Planned",
+      status: "Live",
       path: "/decisions"
     },
     {
