@@ -56,7 +56,7 @@ function Home() {
       description: "Simulate the adrenaline of last-minute studying",
       emoji: "📚",
       color: "#FFE8CC",
-      status: "Planned",
+      status: "Live",
       path: "/exam"
     },
     {
@@ -65,7 +65,7 @@ function Home() {
       description: "Watch sleep always win over productivity",
       emoji: "😴",
       color: "#CCF2FF",
-      status: "Idea",
+      status: "In Development",
       path: "/sleep"
     }
   ];
