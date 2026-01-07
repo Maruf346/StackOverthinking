@@ -38,7 +38,7 @@ function Home() {
       description: "Watch numbers go up while achieving absolutely nothing",
       emoji: "📊",
       color: "#D5EDDB",
-      status: "In Development",
+      status: "Live",
       path: "/productivity"
     },
     {
