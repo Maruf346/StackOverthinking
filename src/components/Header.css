@@ -56,6 +56,16 @@
   letter-spacing: 0.5px;
 }
 
+.logo-link {
+  text-decoration: none; /* This removes underline from logo link too */
+  display: block;
+}
+
+/* Optional: Add hover effect for logo link */
+.logo-link:hover {
+  opacity: 0.9;
+}
+
 .header-quote {
   background: linear-gradient(45deg, #ffd6d6, #fff3cd);
   padding: 10px 25px;
@@ -99,6 +109,7 @@
   padding: 10px 15px;
   display: flex;
   align-items: center;
+  text-decoration: none;
   gap: 8px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;

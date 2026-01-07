@@ -1,7 +1,8 @@
 // components/FeatureCard.jsx
+import { Link } from 'react-router-dom';
 import './FeatureCard.css';
 
-function FeatureCard({ title, description, emoji, color, status = "Live" }) {
+function FeatureCard({ title, description, emoji, color, status = "Live", path = "#" }) {
   const statusColors = {
     'Live': '#10b981',
     'Coming Soon': '#f59e0b',
@@ -25,10 +26,10 @@ function FeatureCard({ title, description, emoji, color, status = "Live" }) {
       </div>
       
       <div className="card-footer">
-        <button className="card-button">
+        <Link to={path} className="card-button">
           <span className="button-text">Try Now</span>
           <span className="button-arrow">→</span>
-        </button>
+        </Link>
       </div>
     </div>
   );

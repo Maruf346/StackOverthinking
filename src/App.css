@@ -2,6 +2,7 @@
 .app {
   opacity: 0;
   animation: fadeIn 1s ease forwards;
+  min-height: 100vh;
 }
 
 .app.loading {
